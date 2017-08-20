@@ -38,4 +38,8 @@ class base(object):
         self.conn.close()
         print("base::closeDB")
         
+    def loop(self):
+        return 1
+        
+        
         
